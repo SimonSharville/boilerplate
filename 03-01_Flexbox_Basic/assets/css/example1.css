@@ -1,0 +1,29 @@
+/* https://www.youtube.com/watch?v=t6GoK1yGcFM&feature=youtu.be */
+
+.flex {
+  display:-webkit-flex;
+  -webkit-flex-flow:row;
+  -webkit-justify-content:space-around;
+}
+
+.flex > *{
+  min-width: 100px;
+  min-height:100px;
+}
+
+header{
+  background:rgba(200, 200, 200, 1);
+}
+
+article{
+  background:rgba(200, 200, 200, .8);
+}
+
+aside{
+  background:rgba(200, 200, 200, .6);
+}
+
+footer{
+  background:rgba(200, 200, 200, .4);
+}
+
