@@ -1,0 +1,59 @@
+
+
+$Orange:     #DC7321;
+$Grey01:     #2F2B2D;
+$Grey03:     #564F50;
+$Grey05:     #837C7D;
+$Grey07:     #B9B3B4;
+$Grey08:     #D7D2D2;
+$Grey09:     #F7F5F4;
+$GreyBlue:   #728C8C;
+$Cobalt:     #4819A9;
+$Teal:       #0D8078;
+$Green:      #96C514;
+$Mustard:    #E8A800;
+$Pink:       #A4197E;
+$Purple:     #452597;
+$Caramel:    #8A3E04;
+
+
+
+@font-face {
+    font-family: 'LightCn';
+    src: url(../fonts/UniversLTStd/UniversLTStd-LightCn.eot);
+    src: url(../fonts/UniversLTStd/UniversLTStd-LightCn.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/UniversLTStd/UniversLTStd-LightCn.woff) format('woff'),
+         url(../fonts/UniversLTStd/UniversLTStd-LightCn.ttf) format('truetype'),
+         url(../fonts/UniversLTStd/UniversLTStd-LightCn.svg#UniversLTStd-LightCn) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {  /* Used for main headings */
+    font-family: 'LightUltraCn';
+    src: url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.eot);
+    src: url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.woff) format('woff'),
+         url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.ttf) format('truetype'),
+         url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.svg#UniversLTStd-LightUltraCn) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {  /* Used for main headings */
+    font-family: 'ThinUltraCn';
+    src: url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.eot);
+    src: url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.woff) format('woff'),
+         url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.ttf) format('truetype'),
+         url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.svg#UniversLTStd-ThinUltraCn) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+
+

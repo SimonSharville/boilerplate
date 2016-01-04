@@ -1,0 +1,55 @@
+@import "partials/reset.css";
+@import "partials/core-elements";
+
+// ====================================================================================
+
+// sticky-single-column =======================
+
+html, body {
+  height:100%;
+  min-height:100%;
+  overflow: hidden;
+  margin:0;
+}
+
+body {
+  display:                    -webkit-flex;
+  display:                    flex;
+  -webkit-flex-flow:          column;
+  flex-flow:                  column; // shorhand for direction & wrap
+  -webkit-justify-content:    center;
+  justify-content:            center;
+}
+
+
+
+main {
+  overflow-y: auto;
+  background: green;
+  display:                     inherit;
+  flex: 1 1 auto;              // This is the shorthand for flex-grow, flex-shrink and flex-basis combined.
+  -webkit-justify-content:     center;
+  justify-content:             center;
+  -webkit-align-items:      center;
+  align-items:              center;
+}
+section{
+  background:yellow;
+  width:900px;
+}
+
+header, footer {
+  background: red;
+  height:50px;
+  display:                     inherit;
+  -webkit-justify-content:    center;
+  justify-content:            center;
+  -webkit-align-items:      center;
+  align-items:              center;
+}
+
+.headfoot{
+  border: 1px dotted blue;
+  width:900px;
+  min-height:40px;
+}
