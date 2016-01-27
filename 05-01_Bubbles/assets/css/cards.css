@@ -275,6 +275,32 @@ header {
 .cardtags {
   text-align: left; }
 
+#divide-grey-full {
+  min-height: 6px;
+  min-width: 100%;
+  background: url("../images/global/dot-grey.png");
+  margin: 50px 0 50px -3px; }
+
+#divide-grey {
+  display: inline-block;
+  min-height: 6px;
+  width: 100%;
+  max-width: 900px;
+  background: url("../images/global/dot-grey.png");
+  margin: 50px -5px 50px -5px; }
+
+#divide-white {
+  min-height: 6px;
+  min-width: 100%;
+  background: url("../images/global/dot-white.png");
+  margin: 10px 0px 10px -3px; }
+
+#divide-footer {
+  min-height: 6px;
+  min-width: 100%;
+  background: url("../images/global/dot-white.png");
+  margin: 0px 0px 0px -3px; }
+
 @media (max-width: 319px) {
   .card-container {
     width: 100%; }
