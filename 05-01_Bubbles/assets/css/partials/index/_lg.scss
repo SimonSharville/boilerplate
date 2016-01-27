@@ -1,0 +1,128 @@
+
+// lg sizes
+
+.flex-container{            // -webkit-  is for Safari
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+  -webkit-justify-content:  center;
+  justify-content:          center;
+  -webkit-align-items:      center;
+  align-items:              center;
+}
+
+.bubblewrap{
+  display:                  -webkit-inline-flex; /* Safari */
+  display:                  inline-flex;
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+
+  position:relative;
+  min-width:1024px;
+  min-height:768px;
+  padding-right:0px;
+  padding-bottom:0px;
+  // background-image: url("../../assets/images/index/IndexLogo_iPadMini_L.png");
+}
+
+.bubble{
+  position:absolute;
+  min-height:250px;
+  min-width:250px;
+  margin-top:20px;
+  margin-left:0px;
+}
+
+// Bubble positions ==========================================================
+
+.bubbleLogo{ top:145px; left:278px; min-height:262px; min-width:262px; }
+
+.bubbleStatement{ top:245px; left:531px; min-height:318px; min-width:318px; }
+
+.bubbleProfile{ top:107px; left:536px; min-height:132px; min-width:132px; }
+
+.bubbleOne{ top:340px; left:173px; min-height:132px; min-width:132px; }
+
+.bubbleThree{ top:526px; left:466px; min-height:132px; min-width:132px; }
+
+.bubbleTwo{ top:512px; left:317px; min-height:132px; min-width:132px; }
+
+.bubbleSix{ top:419px; left:417px; min-height:101px; min-width:101px; }
+
+.bubbleEmail{top:85px; left:672px;  min-height:78px; min-width:78px; }
+
+.bubbleSeven{top:249px; left:185px;  min-height:78px; min-width:78px; }
+
+.bubbleEight{top:480px; left:240px;  min-height:78px; min-width:78px; }
+
+.bubbleNine{top:418px; left:318px;  min-height:78px; min-width:78px; }
+
+.bubbleFour{top:68px; left:457px;  min-height:78px; min-width:78px; }
+
+.bubbleLinkedIn{top:174px; left:678px;  min-height:60px; min-width:60px; }
+
+.bubbleFive{top:578px; left:612px;  min-height:78px; min-width:78px; }
+
+
+
+// TYPE SIZES ==================================================================
+
+.logo{
+  display:inline-block;
+  border-left: 2px solid $Profile;
+  padding-left:5px;
+  text-align:left;
+
+}
+
+.logo h1{
+  top:0px;
+  left:0px;
+  font-size:36px;
+  line-height:32px;
+  margin-top: -2px;
+  margin-bottom: -4px;
+  word-spacing:-9px;
+  .tight{ 
+    letter-spacing:-0px;
+  }
+}
+
+.statement{
+  font-size: 20px;
+  line-height: 22px;
+  margin-top:-7px;
+  letter-spacing:0.25px;
+}
+
+.textLG, .bubbleProfile {
+  font-size:28px;
+  font-weight:normal;
+  letter-spacing:0.5px;
+}
+
+.textMD {
+  font-size:22px;
+  font-weight:normal;
+  letter-spacing:0.5px;
+}
+
+.textSM {
+  font-size:17px;
+  font-weight:normal;
+  letter-spacing:0.25px;
+}
+
+.bubbleEmail {
+  font-size:17px;
+  font-weight:normal;
+  letter-spacing:0.25px;
+}
+
+.bubbleLinkedIn {
+  font-size:15px;
+  font-weight:normal;
+  letter-spacing:0.25px;
+}
+
+
+

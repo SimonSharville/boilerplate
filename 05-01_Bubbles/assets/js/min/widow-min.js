@@ -1,0 +1,1 @@
+$("p").each(function(){var h=$(this).html();h=h.replace(/ ([^ ]*)$/,"&nbsp;$1"),$(this).html(h)});

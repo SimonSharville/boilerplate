@@ -1,0 +1,168 @@
+// ====================================================================================
+
+// CARD SLIDE =====================================
+
+// http://codepen.io/jeffersonlam/pen/aOjEWK
+
+// --------------------------------------------------
+
+
+
+// Variables -----------------------------------------
+
+$nav-width: 192px;
+
+// Sidebar icon --------------------------------------
+
+.hamburger {
+  position: fixed;
+  z-index: 9999;
+  padding: 15px 10px;
+  // border: 1px dotted green;
+  
+  &:hover {
+    cursor: pointer;
+  }
+} 
+
+.openSidebar {
+  background-color: $Grey08;
+  border-radius:50%;
+  content: url("../images/global/arrow-right.png");
+  background-repeat: no-repeat;
+  width:40px;
+
+  &:hover{
+    background-color: $Profile;
+  }
+  .sidenav-active & {
+    transform: rotate(180deg) ;
+    -webkit-transform: rotate(180deg) ;
+    -moz-transform: rotate(180deg) ;
+    -o-transform: rotate(180deg) ;
+    -ms-transform: rotate(180deg) ;
+  }
+}
+
+// END Sidebar icon ------------------------------
+.pageName{
+    position:fixed;
+    top:110px;
+    margin-left:10px;
+    display:block;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-size:26px;
+    width:40px;
+    direction: rtl;
+    white-space: nowrap;
+
+
+    .sidenav-active & {
+      visibility:hidden;
+    }
+        
+    p{
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    font-weight:300;
+    color:white;
+    }
+   
+  }
+
+//Sidenav & its contents -------------------------
+
+nav {
+  background-color: $Grey01;
+  display: inline-block;
+  position: fixed;
+  // height: 100vh;
+  min-height: 100vh;
+  width: $nav-width;
+  left: -$nav-width;
+}
+
+nav .logo {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    img {
+      width:160px;
+      height:160px;
+      border-radius:50%;
+    }
+}
+
+nav ul {
+  a:link {
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    line-height: 1em;
+    font-weight:400;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 7px 0 3px 0;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: white;
+    background-color: black;
+    background:rgba(0,0,0,0.2);
+  }
+}
+
+nav .active{
+  color:white;
+  background-color: black;
+  background:rgba(0,0,0,0.5);
+}
+
+nav footer {
+    width: $nav-width;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+
+    p {
+      font-family: 'Roboto Slab', serif;
+      font-size: 0.8em;
+      line-height:1.2em;
+      padding: 5px;
+      font-weight:400;
+      color:white;
+    }
+  }
+
+
+//When sidenav is open: ========================
+
+//1. Nudge everything to the side
+nav, .hamburger, .cover {
+  // transition: transform .3s;
+
+  .sidenav-active & {
+    transform: translateX($nav-width);
+  }
+}
+//2. Shrink main to fit nav on screen
+.main {
+  transition: margin-left .3s;
+  
+  .sidenav-active & {
+    margin-left: $nav-width;
+  }
+}
+
+// END Sidenav & its contents
+//----------------------------------------------
+
+
+
+

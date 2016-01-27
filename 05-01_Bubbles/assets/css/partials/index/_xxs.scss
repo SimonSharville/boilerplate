@@ -1,0 +1,76 @@
+
+// xxs sizes
+
+.flex-container{            // -webkit-  is for Safari
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+  -webkit-justify-content:  flex-start;
+  justify-content:          flex-start;
+  -webkit-align-items:      center;
+  align-items:              center;
+}
+
+.bubblewrap{
+  display:                  -webkit-inline-flex; /* Safari */
+  display:                  inline-flex;
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+  padding-right:0px;
+  padding-bottom:20px;
+}
+
+.bubble{
+  min-height:150px;
+  min-width:150px;
+  margin-top:20px;
+  margin-left:0px;
+}
+
+.bubbleStatement{ display:none; }
+
+
+// TYPE SIZES =================================================
+
+.logo{
+  display:inline-block;
+  border-left: 2px solid $Grey01;
+  padding-left:4px;
+  text-align:left;
+
+
+}
+
+.logo h1{
+  top:0px;
+  left:0px;
+  font-size:20px;
+  line-height:22px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  word-spacing:-5px;
+  .tight{ 
+    letter-spacing:-0.6px;
+  }
+}
+
+
+.bubbleOne, .bubbleTwo, .bubbleThree, .bubbleFour, .bubbleFive, .bubbleSix, .bubbleSeven, .bubbleEight, .bubbleNine, .bubbleEmail, .bubbleLinkedIn, .bubbleProfile {
+  font-size:20px;
+  font-weight:normal;
+  letter-spacing:0.5px;
+  }
+
+  .bubbleShare { 
+  margin-bottom:50px; 
+  top: 10px;
+  left:30%; 
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  .sb_main, .sb_network_button{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+
+  }
+}

@@ -1,0 +1,195 @@
+
+
+
+@import "partials/core/reset";
+@import "partials/core/core-elements";
+@import "partials/index/type";
+
+// ====================================================================================
+
+html, body {
+  height: 100%; 
+}
+
+body {
+  background-color: $Grey01;
+}
+
+* {
+    -webkit-font-smoothing: antialiased!important;
+    -moz-font-smoothing: grayscale!important;
+    font-smoothing: antialiased!important;
+}
+
+
+.flex-container {
+  height:100%;
+  // border: 1px dotted yellow;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+  }
+
+.flex-container{            // -webkit-  is for Safari
+  display:                  -webkit-flex; 
+  display:                  flex;
+}
+
+// Kept as reference =======================
+// .bubblewrap{
+//   display:                  -webkit-flex; 
+//   display:                  flex;
+//   -webkit-flex-flow:        row;
+//   flex-flow:                row;
+//   -webkit-justify-content:  center;
+//   justify-content:          center;
+//   -webkit-align-items:      center;
+//   align-items:              center;
+//   -webkit-flex-wrap:        wrap; 
+//   flex-wrap:                wrap;
+//   -webkit-align-content:    center; 
+//   align-content:            center;
+// }
+// ========================================
+
+.bubblewrap{
+  // border: 1px dotted green;
+}
+
+.bubble{
+  display:                  -webkit-flex; 
+  display:                  flex;
+  -webkit-flex-flow:        row;
+  flex-flow:                row;
+  -webkit-justify-content:  center;
+  justify-content:          center;
+  -webkit-align-items:      center;
+  align-items:              center;
+}
+
+.bubble{
+  border-radius: 50%;
+  text-align:center;
+  background-color: white;
+}
+
+.bubbleLink{
+}
+
+.bubble, .bubbleLink {
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.bubbleLink:hover{
+  background-color: $Profile;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+
+  
+}
+
+.bubbleStatement{
+  border: solid 2px $Profile;
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow:    none;
+  box-shadow:         none;
+}
+
+.bubbleProfile{
+  background-image: url("../images/profile/profilePhoto.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color:transparent;
+  
+
+  h3{ 
+    color:white; 
+    visibility:visible;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  &:hover{ 
+    h3{ 
+      visibility:visible;
+      -webkit-transition: all 0.5s ease-out;
+      -moz-transition: all 0.5s ease-out;
+      -ms-transition: all 0.5s ease-out;
+      -o-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+    }
+  }
+}
+
+// WIP RESPONSIVE
+
+// Reference =============
+// iPad mini  = 1024 x 768
+// iPad       = 1024 x 768
+// iPhone6p   = 736 x 414
+// iPhone6    = 667 x 375
+// iPhone5    = 568 x 320
+// iPhone4    = 480 x 320
+// =======================
+
+// COMMON BREAKPOINTS
+@media (max-width:319px) // xxs - smaller than iPhone4 width 
+{ @import "partials/index/xxs"; }
+
+@media (min-width:320px) // xs - mobile portrait 
+{ @import "partials/index/xs"; }
+
+@media (min-width:320px) and (orientation: landscape) // xs - mobile landscape 
+{ @import "partials/index/xs_landscape"; }
+
+@media (min-width:480px) // sm - mobile landcape 
+{ @import "partials/index/sm"; }
+
+@media (min-width:480px) and (orientation: landscape) // sm - mobile landscape 
+{ @import "partials/index/sm_landscape"; }
+
+@media (min-width:768px) // md - tablet portrait 
+{ @import "partials/index/md"; }
+
+@media (min-width:1024px) // lg - tablet landscape 
+{ @import "partials/index/lg"; }
+
+@media (min-width:1224px) // xl - desktop 
+{ @import "partials/index/xl"; }
+
+
+
+

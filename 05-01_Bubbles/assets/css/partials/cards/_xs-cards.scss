@@ -1,0 +1,39 @@
+
+// xs cards - Min-width: 320px
+
+
+#container { 
+}
+
+#content{
+}
+
+.card-container{
+  width:100%;
+}
+
+.card{
+  display:inherit;
+  width:100%;
+  min-height:200px;
+}
+
+.image{
+  width: 33.3%;
+  min-height:220px;
+
+  border-radius: 6px 0px 0px 6px;
+}
+
+.cardtext{
+  width: 66.6%;
+
+  padding: 12px 5px 0px 10px;
+}
+.cardtitle{
+  width: 100%;
+}
+
+.cardtags{
+}
+

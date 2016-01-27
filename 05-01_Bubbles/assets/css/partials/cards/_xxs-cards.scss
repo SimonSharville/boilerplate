@@ -1,0 +1,37 @@
+
+// xxs cards - Max-width: 319px
+
+
+#container { 
+}
+
+#content{
+}
+
+.card-container{
+  width:100%;
+}
+
+.card{
+  width:100%;
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+}
+
+.image{
+  width: 100%;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.cardtext{
+  width: 100%;
+  padding: 10px 7px 5px 7px;
+}
+
+.cardtitle{
+  width: 100%;
+}
+
+.cardtags{
+}
+

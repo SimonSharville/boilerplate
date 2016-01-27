@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Title</title>
+    <meta name="description" content="Description Here">
+
+<meta name="keywords" content="metatags, tags">
+
+<link rel="icon" type="image/ico" href="assets/images/profile/favicon.ico"/>
+
+    <!-- Styles -->
+    <link href="assets/css/index.css" rel="stylesheet">
+    
+  
+
+  </head>
+  <body onload="return ran_col()" id="indexPage">
+
+    <div class="flex-container"> 
+
+      <div class="bubblewrap"> 
+
+        <div class="bubble bubbleLogo">
+          <div class="logo">
+          <h1>Name Surname</br>Job Description</h1>
+          </div>
+        </div>
+
+        <div class="bubble bubbleStatement">
+          <h2 class="statement">
+            Intro statement here</h2>
+        </div>
+
+        <a href="about.html" class="bubble bubbleLink bubbleProfile">
+          <h3>About</h3>
+        </a>
+
+        <a href="pageOne.html" class="bubble bubbleLink bubbleOne textLG">
+          <h3>Page One</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleTwo textLG">
+          <h3>Page Two</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleThree textLG">
+          <h3>Page Three</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleFour textSM">
+          <h3>Page Four</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleFive textSM">
+          <h3>Page Five</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleSix textMD">
+          <h3>Page Six</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleSeven textSM">
+          <h3>Page Seven</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleEight textSM">
+          <h3>Page Eight</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleNine textSM">
+          <h3>Page Nine</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleEmail">
+          <h3>Email</h3>
+        </a>
+
+        <a href="#" class="bubble bubbleLink bubbleLinkedIn" target="new">
+          <h3>LinkedIn</h3>
+        </a> 
+
+      </div> <!-- END Bubblewrap -->
+    </div> <!-- FLEX-CONTAINER -->
+
+    
+
+<!-- SCRIPTS ============================================================================ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <!-- https://teamtreehouse.com/community/random-background-color -->
+    <script type="text/javascript">
+    function ran_col() { //function name
+        var color = '#'; // hexadecimal starting symbol
+        var letters = ['2F2B2D','728C8C','4819A9','0D8078','0D8078','96C514','E8A800','A4197E','452597','8A3E04']; //Set your colors here
+        color += letters[Math.floor(Math.random() * letters.length)];
+        document.getElementById('indexPage').style.background = color; // Setting the random color on your div element.
+    }
+</script>
+
+  </body>
+</html>

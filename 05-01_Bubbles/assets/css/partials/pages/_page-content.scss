@@ -1,0 +1,287 @@
+
+
+// Styling for content ----------------------------------------
+
+
+.topButton {
+    position:fixed;
+    bottom:0px;
+    background-color: $Grey08;
+    border-radius:50%;
+    content: url("../images/global/arrow-up.png");
+    background-repeat: no-repeat;
+    width:40px;
+    margin: 15px 10px;
+    display:none;
+    &:hover{
+      background-color: $Profile;
+    }
+  }
+
+header {
+  color: $Grey01;
+  text-align: center;
+  height:130px;
+  width:100%;
+  max-width:900px;
+  display:inline-block;
+  text-align: left;
+  padding:20px 0px 10px 0px;
+}
+
+.main{
+  min-height:100vh;
+}
+
+section {
+  // border: 1px dotted red;
+  margin-left: 60px;
+  margin-right: 20px;
+  color: $Grey01;
+  text-align: center; 
+}
+
+section:first-of-type{
+  padding-top:0px;
+}
+
+section:last-of-type{
+  padding-bottom:50px;
+}
+
+article{
+// border: 1px dotted blue;
+  width:100%;
+  max-width:900px;
+  display:inline-block;
+  text-align: left;
+  img{
+    width:100%;
+    max-width:900px;
+    margin-top:0.5em;
+    z-index: -2000;
+  }
+}
+
+aside{
+  font-family: 'Roboto', sans-serif;
+  color: $Grey05;
+  font-size: 0.75em;
+  line-height: 1.25em;
+  padding: 10px 0;
+  margin-bottom:2em;
+  border-bottom: 1px solid $Grey08;
+  letter-spacing:0.5px;
+}
+
+// Images ==========================================================
+
+@media (min-width:768px){
+  .imgZoom1{
+    min-width:101%;
+    margin-left:-5px;
+  }
+  .imgZoom2{
+    min-width:102.5%;
+    margin-left:-10px;
+  }
+  .imgZoom5{
+    min-width:105%;
+    margin-left:-20px;
+  }
+}
+
+.twoImages {
+  display: table;
+  >img{
+    width:50%;
+  }
+}
+
+.threeImages {
+  display: table;
+  >img{
+    width:33.3%;
+  }
+}
+
+.fourImages {
+  display: table;
+  >img{
+    width:25%;
+  }
+}
+
+.shadow{
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25), 0px 0px 5px 0px rgba(0,0,0,0.05);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25), 0px 0px 5px 0px rgba(0,0,0,0.05);
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25), 0px 0px 5px 0px rgba(0,0,0,0.05);
+}
+
+.doubleshadow{
+  -webkit-box-shadow: 0px 20px 2px -5px rgba(0,0,0,0.05), 0px 2px 2px 5px rgba(0,0,0,0.05);
+-moz-box-shadow: 0px 20px 2px -5px rgba(0,0,0,0.05), 0px 2px 2px 5px rgba(0,0,0,0.05);
+box-shadow: 0px 20px 2px -5px rgba(0,0,0,0.05), 0px 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+
+// Download Icons ==================================================
+
+.DL{
+}
+
+.DLCard{
+  display:                -webkit-flex;
+  display:                  flex;
+  -webkit-justify-content:  center;
+  justify-content:          center;
+  -webkit-align-items:      center;
+  align-items:              center;
+  flex-wrap:                wrap;
+}
+
+.DLIcon{
+  display:                -webkit-flex;
+  display:                  flex;
+  -webkit-justify-content:  center;
+  justify-content:          center;
+  -webkit-align-items:      center;
+  align-items:              center;
+  flex-wrap:                wrap;
+
+  background-color:$Grey08;
+  background-image: url("../images/global/arrow-down.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin:3px;
+  &:hover{
+    color:$Grey01;
+    background-color:$Orange;
+  }
+}
+
+
+// Dividers =======================================
+
+
+#divide-grey-full{
+  min-height: 6px;
+  min-width:100%;
+  background: url("../images/global/dot-grey.png");
+  margin:50px 0 50px -3px;
+}
+
+#divide-grey{
+  display:inline-block;
+  min-height: 6px;
+  width:100%;
+  max-width:900px;
+  background: url("../images/global/dot-grey.png");
+  margin:50px -5px 50px -5px;
+}
+
+#divide-white{
+  min-height: 6px;
+  min-width:100%;
+  background: url("../images/global/dot-white.png");
+  margin:10px 0px 10px -3px;
+}
+
+#divide-footer{
+  min-height: 6px;
+  min-width:100%;
+  background: url("../images/global/dot-white.png");
+  margin:0px 0px 0px -3px;
+}
+
+
+// Submenu ===============================================
+
+#submenu{
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align:left;
+}
+
+#submenu ul{  
+}
+
+#submenu li{
+  display:                  -webkit-inline-flex;
+  display:                  inline-flex;
+  -webkit-justify-content:  center;
+  justify-content:          center;
+  -webkit-align-items:      center;
+  align-items: center;
+  border-radius:50%;
+  height:100px;
+  width:100px;
+  margin-bottom:5px;
+  background-color:$Grey08;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+
+  &:link{}
+  &:visited{}
+  &:hover{
+    color:$Grey01;
+    background-color:$Orange;
+  }
+}
+
+// Share Links =============================================================
+
+
+#sharelinks {
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+    top: -70px;
+    left: 0;
+    float:right;
+}
+
+#email{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  background: url("../images/global/buttonEmail.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-color:$Grey08;
+  &:hover{ background-color:$Profile; }
+}
+
+#linkedIn{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  background: url("../images/global/buttonLinkedIn.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-color:$Grey08;
+  &:hover{ background-color:$Profile; }
+}
+
+// Page specifics ==================================================================
+
+.profileHeader{
+    text-align:center;
+    // margin:-110px 0px 0px 0px;
+}
+
+.profileImage{
+    max-width: 300px;
+    border-radius:50%;
+    margin:-30px 0px 0px 0px;
+}
+
+

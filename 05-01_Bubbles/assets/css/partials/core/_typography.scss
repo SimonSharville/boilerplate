@@ -1,0 +1,98 @@
+
+
+// Typography ------------------------------------------------------------------------------
+
+h1 {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-weight:300;
+  letter-spacing:-2px;
+  color: $Profile;
+  font-size: 3em;
+  margin-left:-3px!IMPORTANT;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight:400;
+  margin-left:-1px!IMPORTANT;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  padding-top: 0.2em;
+  font-weight:400;
+}
+
+h4 {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight:700;
+  padding-top: 0.4em;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  font-weight:300;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding-bottom: 0.5em;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+
+h2{
+  margin-bottom: -0.1em;
+}
+
+strong{ font-weight:700;}
+
+
+
+
+
+// Page Typography -------------------------------------------------------------------------
+
+#pageTitle h1{
+  font-size: 4em;
+  color:white;
+}
+
+
+.intro{
+  padding-bottom:50px;
+}
+
+.quote{
+  text-indent:-0.2em;
+  margin-left:0px
+}
+
+.quotee{
+  font-weight:700;
+  margin-top:-0.4em;
+  padding-bottom: 1.5em;
+
+}
+
+.contact {
+    h3{ padding-bottom: 0.25em; }
+    p{ padding-bottom: 0em; }
+
+    
+}
+
+a:link { 
+  color: $Grey01;
+  text-decoration: none;
+}
+a:visited{ color: $Grey01;} 
+a:hover{ color: $Profile;} 
+
+
+

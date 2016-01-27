@@ -1,0 +1,38 @@
+
+// sm cards - Min-width: 480px
+
+
+#container { 
+}
+
+#content{
+}
+
+.card-container{
+  width:50%;
+  max-width:230px;
+  min-height:100%;
+}
+
+.card{
+  display:                  -webkit-flex; 
+  display:                  flex;
+  width:100%;
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+}
+
+.image{
+  width: 100%;
+  min-height:200px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.cardtext{
+  padding: 10px 7px 0px 7px;
+  width:100%;
+}
+
+.cardtags{
+  min-height:37px;
+}

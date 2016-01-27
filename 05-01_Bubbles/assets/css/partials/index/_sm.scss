@@ -1,0 +1,35 @@
+
+// sm sizes
+
+.flex-container{            // -webkit-  is for Safari
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+  -webkit-justify-content:  flex-start;
+  justify-content:          flex-start;
+  -webkit-align-items:      center;
+  align-items:              center;
+}
+
+.bubblewrap{
+  display:                  -webkit-inline-flex; /* Safari */
+  display:                  inline-flex;
+  -webkit-flex-flow:        column;
+  flex-flow:                column;
+  padding-right:0px;
+  padding-bottom:20px;
+}
+
+.bubble{
+  min-height:250px;
+  min-width:250px;
+  margin-top:20px;
+  margin-left:0px;
+}
+
+.bubbleStatement{ display:inherit; }
+
+
+
+// TYPE SIZES =================================================
+// Same as XS
+

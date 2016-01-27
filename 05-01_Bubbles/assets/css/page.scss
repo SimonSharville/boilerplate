@@ -1,0 +1,33 @@
+@import "partials/core/reset";
+@import "partials/core/core-elements";
+@import "partials/core/typography";
+
+
+
+
+// Global Styles ======================================================================
+html, body{  margin: 0; }
+
+* {
+  margin: 0;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-font-smoothing: grayscale!important;
+    font-smoothing: antialiased!important;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-transition-duration: .3s; /* Safari */
+    transition-duration: .3s;
+}
+
+
+// ====================================================================================
+
+@import "partials/pages/page-content";
+@import "partials/pages/page-slide";
+
+
+// ====================================================================================
+
