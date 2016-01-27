@@ -1,0 +1,424 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'LightCn';
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightCn.eot);
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightCn.eot?#iefix) format("embedded-opentype"), url(../fonts/UniversLTStd/UniversLTStd-LightCn.woff) format("woff"), url(../fonts/UniversLTStd/UniversLTStd-LightCn.ttf) format("truetype"), url(../fonts/UniversLTStd/UniversLTStd-LightCn.svg#UniversLTStd-LightCn) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  /* Used for main headings */
+  font-family: 'LightUltraCn';
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.eot);
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.eot?#iefix) format("embedded-opentype"), url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.woff) format("woff"), url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.ttf) format("truetype"), url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.svg#UniversLTStd-LightUltraCn) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  /* Used for main headings */
+  font-family: 'ThinUltraCn';
+  src: url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.eot);
+  src: url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.eot?#iefix) format("embedded-opentype"), url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.woff) format("woff"), url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.ttf) format("truetype"), url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.svg#UniversLTStd-ThinUltraCn) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'LightCn';
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightCn.eot);
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightCn.eot?#iefix) format("embedded-opentype"), url(../fonts/UniversLTStd/UniversLTStd-LightCn.woff) format("woff"), url(../fonts/UniversLTStd/UniversLTStd-LightCn.ttf) format("truetype"), url(../fonts/UniversLTStd/UniversLTStd-LightCn.svg#UniversLTStd-LightCn) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  /* Used for main headings */
+  font-family: 'LightUltraCn';
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.eot);
+  src: url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.eot?#iefix) format("embedded-opentype"), url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.woff) format("woff"), url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.ttf) format("truetype"), url(../fonts/UniversLTStd/UniversLTStd-LightUltraCn.svg#UniversLTStd-LightUltraCn) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  /* Used for main headings */
+  font-family: 'ThinUltraCn';
+  src: url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.eot);
+  src: url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.eot?#iefix) format("embedded-opentype"), url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.woff) format("woff"), url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.ttf) format("truetype"), url(../fonts/UniversLTStd/UniversLTStd-ThinUltraCn.svg#UniversLTStd-ThinUltraCn) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'LightUltraCn', Helvetica, Arial, sans-serif;
+  color: #2F2B2D;
+  text-align: left; }
+
+p {
+  font-family: 'Roboto Slab', serif;
+  color: #2F2B2D;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px; }
+
+h1 {
+  font-size: 32px;
+  line-height: 32px; }
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+  border-bottom: 1px solid #B9B3B4;
+  margin-bottom: 5px; }
+
+a:link {
+  color: #2F2B2D;
+  text-decoration: none; }
+
+html, body {
+  height: 100%; }
+
+* {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: grayscale !important;
+  font-smoothing: antialiased !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Sticky header with same background color as body, so that it covers up the content */
+#header_container {
+  position: fixed; }
+
+#header {
+  text-align: center; }
+
+/* Stick footer with same background color as body, so that it covers up the content */
+#footer_container {
+  position: fixed;
+  bottom: 0px; }
+
+#footer {
+  text-align: center; }
+
+/* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+#container {
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center; }
+
+#content {
+  display: inherit;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-content: flex-start;
+  align-content: flex-start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.card-container {
+  display: inherit;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center; }
+
+.card {
+  background: white;
+  border-radius: 6px;
+  margin: 0px 10px 20px 10px;
+  display: inherit;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  align-content: flex-start; }
+
+.image {
+  display: inherit;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center; }
+
+.image {
+  background-color: #B9B3B4;
+  height: 175px; }
+
+.cardtext {
+  display: inherit;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  align-content: flex-start; }
+
+@media (max-width: 319px) {
+  #header_container {
+    height: 40px;
+    width: 100%; }
+
+  #header {
+    height: 40px;
+    width: 100%; }
+
+  #footer_container {
+    height: 40px;
+    width: 100%; }
+
+  #footer {
+    height: 40px;
+    width: 100%; }
+
+  #container {
+    width: 100%; }
+
+  #content {
+    margin: 60px 0;
+    width: 100%;
+    paddig-top: 20px; }
+
+  .card-container {
+    width: 100%; }
+
+  .card {
+    width: 100%;
+    -webkit-flex-flow: column;
+    flex-flow: column; }
+
+  .image {
+    width: 100%;
+    border-radius: 6px 6px 0px 0px; }
+
+  .cardtext {
+    width: 100%;
+    padding: 10px 7px 5px 7px; }
+
+  .cardtitle {
+    width: 100%; } }
+@media (min-width: 320px) {
+  #header_container {
+    height: 40px;
+    width: 100%; }
+
+  #header {
+    height: 40px;
+    width: 100%; }
+
+  #footer_container {
+    height: 40px;
+    width: 100%; }
+
+  #footer {
+    height: 40px;
+    width: 100%; }
+
+  #container {
+    width: 100%; }
+
+  #content {
+    margin: 60px 0;
+    width: 100%;
+    paddig-top: 20px; }
+
+  .card-container {
+    width: 100%; }
+
+  .card {
+    display: inherit;
+    width: 100%;
+    min-height: 200px; }
+
+  .image {
+    width: 33.3%;
+    min-height: 220px;
+    border-radius: 6px 0px 0px 6px; }
+
+  .cardtext {
+    width: 66.6%;
+    padding: 12px 5px 0px 10px; }
+
+  .cardtitle {
+    width: 100%; } }
+@media (min-width: 480px) {
+  #header_container {
+    height: 40px;
+    width: 100%; }
+
+  #header {
+    height: 40px;
+    width: 100%; }
+
+  #footer_container {
+    height: 40px;
+    width: 100%; }
+
+  #footer {
+    height: 40px;
+    width: 100%; }
+
+  #container {
+    width: 100%; }
+
+  #content {
+    margin: 60px 0;
+    width: 100%;
+    paddig-top: 20px; }
+
+  .card-container {
+    width: 50%;
+    max-width: 230px;
+    min-height: 100%; }
+
+  .card {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    -webkit-flex-flow: column;
+    flex-flow: column; }
+
+  .image {
+    width: 100%;
+    min-height: 200px;
+    border-radius: 6px 6px 0px 0px; }
+
+  .cardtext {
+    padding: 10px 7px 0px 7px;
+    width: 100%; }
+
+  .cardtags {
+    min-height: 37px; } }
+@media (min-width: 768px) {
+  #header_container {
+    height: 40px;
+    width: 100%; }
+
+  #header {
+    height: 40px;
+    width: 100%; }
+
+  #footer_container {
+    height: 40px;
+    width: 100%; }
+
+  #footer {
+    height: 40px;
+    width: 100%; }
+
+  #container {
+    width: 100%; }
+
+  #content {
+    margin: 60px 0;
+    width: 100%;
+    paddig-top: 20px; }
+
+  .card-container {
+    width: 50%;
+    max-width: 230px;
+    min-height: 200px; }
+
+  .card {
+    width: 100%; } }
+@media (min-width: 1024px) {
+  #header_container {
+    height: 40px;
+    width: 100%; }
+
+  #header {
+    height: 40px;
+    width: 100%; }
+
+  #footer_container {
+    height: 40px;
+    width: 100%; }
+
+  #footer {
+    height: 40px;
+    width: 100%; }
+
+  #container {
+    width: 1024px; }
+
+  #content {
+    margin: 60px 0;
+    width: 100%;
+    paddig-top: 20px; }
+
+  .card-container {
+    width: 50%;
+    max-width: 230px;
+    min-height: 200px; }
+
+  .card {
+    width: 100%; } }

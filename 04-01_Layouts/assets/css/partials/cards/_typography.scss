@@ -1,0 +1,40 @@
+@import "../core-elements";
+
+// Typography ==============================================
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'LightUltraCn', Helvetica, Arial, sans-serif;
+  color: $Grey01;
+  text-align:left;
+}
+
+
+p{
+  font-family: 'Roboto Slab', serif;
+  // letter-spacing:0.5px;
+  color: $Grey01;
+  font-weight:400;
+  font-size:12px;
+  line-height:15px;
+}
+
+h1{
+  font-size:32px;
+  line-height:32px;
+  // border-bottom: 0px solid $Grey07;
+  // margin-bottom:5px;
+} 
+
+h2{
+  font-size:24px;
+  line-height:24px;
+  border-bottom: 1px solid $Grey07;
+  margin-bottom:5px;
+} 
+
+a:link { 
+  color: $Grey01;
+  text-decoration: none; 
+}
+
