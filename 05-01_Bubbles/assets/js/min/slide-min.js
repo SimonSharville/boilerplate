@@ -1,0 +1,1 @@
+function toggleSidenav(){document.body.classList.toggle("sidenav-active")}var hamburger=document.getElementById("hamburger");hamburger.addEventListener("click",toggleSidenav);
