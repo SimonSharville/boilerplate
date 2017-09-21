@@ -7,7 +7,7 @@
 		"uuidString": "279E5144-D3BA-48BF-943B-19037639ADEB"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -129,6 +129,7 @@
 		},
 	"\/02-01_Bootstrap_Basic\/assets\/js\/bootstrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/02-01_Bootstrap_Basic\/assets\/js\/min\/bootstrap-min.js",
@@ -138,6 +139,7 @@
 		},
 	"\/02-01_Bootstrap_Basic\/assets\/js\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/02-01_Bootstrap_Basic\/assets\/js\/min\/bootstrap.min-min.js",
@@ -147,6 +149,7 @@
 		},
 	"\/02-01_Bootstrap_Basic\/assets\/js\/npm.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/02-01_Bootstrap_Basic\/assets\/js\/min\/npm-min.js",
@@ -254,6 +257,7 @@
 		},
 	"\/02-02_Bootstrap_12-16_columns\/assets\/js\/bootstrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/02-02_Bootstrap_12-16_columns\/assets\/js\/min\/bootstrap-min.js",
@@ -263,6 +267,7 @@
 		},
 	"\/02-02_Bootstrap_12-16_columns\/assets\/js\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/02-02_Bootstrap_12-16_columns\/assets\/js\/min\/bootstrap.min-min.js",
@@ -370,6 +375,7 @@
 		},
 	"\/02-03_Bootstrap_16-16_columns\/assets\/js\/bootstrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/02-03_Bootstrap_16-16_columns\/assets\/js\/min\/bootstrap-min.js",
@@ -379,6 +385,7 @@
 		},
 	"\/02-03_Bootstrap_16-16_columns\/assets\/js\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/02-03_Bootstrap_16-16_columns\/assets\/js\/min\/bootstrap.min-min.js",
@@ -2555,6 +2562,7 @@
 		},
 	"\/05-01_Bubbles\/assets\/js\/active.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/05-01_Bubbles\/assets\/js\/min\/active-min.js",
@@ -2564,6 +2572,7 @@
 		},
 	"\/05-01_Bubbles\/assets\/js\/min\/active-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/05-01_Bubbles\/assets\/js\/min\/min\/active-min-min.js",
@@ -2571,8 +2580,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/05-01_Bubbles\/assets\/js\/min\/min\/slide03-min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/05-01_Bubbles\/assets\/js\/min\/min\/min\/slide03-min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/05-01_Bubbles\/assets\/js\/min\/slide-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/05-01_Bubbles\/assets\/js\/min\/min\/slide-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/05-01_Bubbles\/assets\/js\/min\/slide03-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/05-01_Bubbles\/assets\/js\/min\/min\/slide03-min-min.js",
@@ -2582,6 +2612,7 @@
 		},
 	"\/05-01_Bubbles\/assets\/js\/min\/smoothscroll-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/05-01_Bubbles\/assets\/js\/min\/min\/smoothscroll-min-min.js",
@@ -2591,6 +2622,7 @@
 		},
 	"\/05-01_Bubbles\/assets\/js\/min\/widow-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/05-01_Bubbles\/assets\/js\/min\/min\/widow-min-min.js",
@@ -2600,6 +2632,7 @@
 		},
 	"\/05-01_Bubbles\/assets\/js\/slide.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/05-01_Bubbles\/assets\/js\/min\/slide-min.js",
@@ -2609,6 +2642,7 @@
 		},
 	"\/05-01_Bubbles\/assets\/js\/smoothScroll.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/05-01_Bubbles\/assets\/js\/min\/smoothScroll-min.js",
@@ -2618,6 +2652,7 @@
 		},
 	"\/05-01_Bubbles\/assets\/js\/widow.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/05-01_Bubbles\/assets\/js\/min\/widow-min.js",
@@ -2685,6 +2720,12 @@
 		"oAP": "\/build\/05-01_Bubbles\/pageOne.html",
 		"oF": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/example-code\/active-class-navigation-menu\/about.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -2693,6 +2734,7 @@
 		},
 	"\/example-code\/active-class-navigation-menu\/active.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/example-code\/active-class-navigation-menu\/min\/active-min.js",
@@ -2749,6 +2791,12 @@
 		"oAP": "\/build\/example-code\/active-class-navigation-menu\/style.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/README.html",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -3181,6 +3229,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -3188,6 +3240,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -3285,6 +3341,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -3304,6 +3364,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -3432,6 +3496,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -3977,6 +4045,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -4045,6 +4117,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -4084,6 +4160,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -4717,6 +4797,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
